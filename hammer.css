@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #000;
+    margin: 0;
+  }
+  
+  .center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+    width: 90px;
+    height: 90px;
+    background-color: #689F38;
+    transition: transform 300ms ease-out;
+  }
+  
+  .expand {
+    transform: scale(2.5);
+  }
+
+  .square2 {
+    width: 90px;
+    height: 90px;
+    background-color: #9e1d14;
+    transition: transform 300ms ease-out;
+    margin: 20px;
+  }
+
+  .square3 {
+    width: 90px;
+    height: 90px;
+    background-color: #5c0794;
+    transition: transform 300ms ease-out;
+    
+  }
+
+img{
+    
+    width: 140px;
+    height: 89px;
+    margin: 20px;
+    transition: transform 300ms ease-out;
+    
+}
